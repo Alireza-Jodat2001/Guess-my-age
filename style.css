@@ -1,0 +1,80 @@
+/*_________________________________________UNIVERSAL_SELECTOR_________________________________________*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: calibri;
+    transition: 0.3s;
+}
+/*____________________________________________SHORTAND_CSS____________________________________________*/
+.color_white {
+    color: white;
+}
+.button_style {
+    padding: 10px 15px;
+    border: none;
+}
+/*_______________________________________________STYLE________________________________________________*/
+body {
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 60%;
+    margin: auto;
+    border: 5px solid white;
+}
+header {
+    border-bottom: 5px solid white;
+    padding: 10px 10px;
+    height: 160px;
+}
+header h1 {
+    text-align: center;
+}
+.box {
+    background: white;
+    margin: auto;
+    width: 80px;
+    height: 65px;
+    font-size: 25px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    padding: 90px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="text"] {
+    border: 2px solid white;
+    background: none;
+    width: 150px;
+    height: 65px;
+    margin-right: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.div_top {
+    margin-bottom: 30px;
+}
+.div_top span {
+    font-size: 15px;
+}
+.div_bottom button {
+    margin-right: 50px;
+}
+.lose {
+    background: #d91313;
+}
+.win {
+    background: green;
+}
